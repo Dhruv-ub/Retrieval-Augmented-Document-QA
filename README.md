@@ -345,14 +345,3 @@ System Metrics
 - [ ] CI/CD pipeline with automated test + lint gates
 - [ ] RAG evaluation benchmarks (RAGAS framework integration)
 
----
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <sub>Built as a production-grade ML engineering portfolio project.</sub>
-</p>
