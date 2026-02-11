@@ -1,0 +1,28 @@
+# Core ML
+numpy<2.0
+torch>=2.3.0
+transformers>=4.46.0
+sentence-transformers>=3.0.0
+accelerate>=0.33.0
+
+# Vector Store
+faiss-cpu>=1.7.0
+
+# RAG / LangChain
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# Document Processing
+pypdf>=3.0.0
+
+# UI
+gradio>=4.0.0
+
+# Data Validation
+pydantic>=2.0.0
+
+# API (optional)
+fastapi>=0.100.0
+uvicorn>=0.22.0
