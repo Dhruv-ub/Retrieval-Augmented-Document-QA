@@ -50,13 +50,13 @@ A modular, end-to-end **Retrieval-Augmented Generation (RAG)** system built with
 │                      RAG Pipeline                               │
 │                                                                 │
 │  ┌──────────┐   ┌────────────┐   ┌────────────┐   ┌─────────┐ │
-│  │  Query   │──▶│  Retrieve  │──▶│  Generate  │──▶│ Evaluate │ │
-│  │ Embedding│   │ Top-K Docs │   │  Answer    │   │ Grounding│ │
+│  │  Query     │──▶│  Retrieve   │──▶│   Generate  │──>│ Evaluate │ │
+│  │ Embedding. │   │ Top-K Docs   │   │    Answer    │   │ Grounding │ │
 │  └──────────┘   └────────────┘   └────────────┘   └─────────┘ │
-│       │               │               │               │        │
-│       ▼               ▼               ▼               ▼        │
-│  SentenceTransf.  FAISS Index   TinyLlama-1.1B  Hallucination │
-│  all-MiniLM-L6   (Cosine Sim)   (Float16)        Guard       │
+│       │               │                    │                │        │
+│       ▼               ▼                   ▼               ▼        │
+│  SentenceTransf.  FAISS Index   TinyLlama-1.1B        Hallucination │
+│  all-MiniLM-L6   (Cosine Sim)   (Float16)               Guard       │
 └─────────────────────────────────────────────────────────────────┘
                            │
 ┌──────────────────────────▼──────────────────────────────────────┐
