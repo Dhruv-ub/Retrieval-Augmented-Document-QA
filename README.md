@@ -163,7 +163,7 @@ rag-system/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/rag-system.git
+git clone https://github.com/Dhruv-ub/Retrieval-Augmented-Document-QA
 cd rag-system
 ```
 
