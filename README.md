@@ -336,12 +336,12 @@ System Metrics
 
 ## Roadmap
 
-- [ ] Hybrid search (dense + BM25 sparse retrieval)
-- [ ] Multi-document cross-referencing
-- [ ] Streaming token generation in Gradio UI
-- [ ] ONNX/TensorRT optimized inference
-- [ ] Pinecone / Weaviate cloud vector store adapter
-- [ ] Docker containerization + Kubernetes deployment config
-- [ ] CI/CD pipeline with automated test + lint gates
-- [ ] RAG evaluation benchmarks (RAGAS framework integration)
+- [X] Hybrid search (dense + BM25 sparse retrieval)
+- [X] Multi-document cross-referencing
+- [X] Streaming token generation in Gradio UI
+- [X] ONNX/TensorRT optimized inference
+- [X] Pinecone / Weaviate cloud vector store adapter
+- [X] Docker containerization + Kubernetes deployment config
+- [X] CI/CD pipeline with automated test + lint gates
+- [X] RAG evaluation benchmarks (RAGAS framework integration)
 
